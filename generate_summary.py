@@ -1,6 +1,6 @@
 from huggingface_hub import InferenceClient
 
-HF_API_TOKEN = "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"
+HF_API_TOKEN = "<Huggingface_Read_Token>"
 MODEL_NAME = "openai/gpt-oss-120b" #"meta-llama/Meta-Llama-3-8B-Instruct" #"meta-llama/Meta-Llama-3-8B-Instruct"
 
 
@@ -59,3 +59,4 @@ def generate_summary(user_prompt: str,generated_sql,result ):
 #     sql = generate_sql(question)
 #     print("\nGenerated SQL:\n")
 #     print(sql)
+
